@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Grumpermone</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <div class="container">
+        <h1 class="header">Grumpermone</h1>
+        Status: <div id="status"></div>
+        <div class="input-group-append">
+            <button class="btn btn-success" type="button" id="startBtn"><i class="material-icons right">arrow_forward</i> Start</button>
+            <button class="btn btn-error" type="button" id="stopBtn"><i class="material-icons right">square</i> Stop</button>
+        </div>
+    </div>
+    <script src="https://cdn.socket.io/3.1.3/socket.io.min.js"></script>
+    <script src="/js/client.js"></script>
+</body>
+</html>
